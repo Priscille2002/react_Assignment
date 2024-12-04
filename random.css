@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .app-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 350px;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    
+    
+  }
+  
+  
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444;
+    color: white;
+    padding: 10px 20px;
+    
+    
+  }
+  
+
+  
+  .navbar .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .navbar .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .fullscreen-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    flex: 1;
+    display: flex;
+  }
+  
+  .cell {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
